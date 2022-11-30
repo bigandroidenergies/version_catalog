@@ -50,10 +50,7 @@ dependencies {
 
     implementation libs.corektx
     implementation libs.lifecycleRuntimeKtx
-    implementation libs.compose.activity
-    implementation libs.compose.ui
-    implementation libs.compose.ui.tooling
-    implementation libs.compose.material
+    implementation libs.bundles.compose
 
     testImplementation libs.test.junit
 

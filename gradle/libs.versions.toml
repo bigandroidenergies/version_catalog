@@ -23,3 +23,9 @@ test-compose-ui = { module = "androidx.compose.ui:ui-test-junit4", version.ref =
 test-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "composeUi" }
 test-compose-manifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "composeUi" }
 test-espresso-Core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso" }
+
+[bundles]
+compose = ["compose-activity", "compose-ui", "compose-ui-tooling", "compose-material"]
+
+[plugins]
+kotlinter = { id = "org.jmailen.kotlinter", version = "3.11.0" }
