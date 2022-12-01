@@ -48,7 +48,8 @@ android {
 
 dependencies {
 
-    implementation libs.corektx
+    implementation 'androidx.core:core-ktx:1.7.0'
+
     implementation libs.lifecycleRuntimeKtx
     implementation libs.bundles.compose
 
